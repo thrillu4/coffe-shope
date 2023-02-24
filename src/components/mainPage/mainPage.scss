@@ -1,0 +1,158 @@
+
+.main {
+    position: relative;
+    padding: 30px 0 200px 0;
+    height: 100vh;
+    background: url('../../img/coffe_house/main_bg.png') center center/cover no-repeat ;
+    &__promo {
+        text-align: center;
+    }
+    &__header {
+        margin-top: 110px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 58px;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    &__subheader, &__title {
+        margin-top: 35px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 35px;
+        color: #FFFFFF;
+    }
+    &__title {
+        margin-top: 20px;
+    }
+    &__btn {
+        padding: 7px 0 7px 0;
+        border: 1px solid #FFFFFF;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 3px;
+        background-color: rgba(28,28,28,0);
+        margin-top: 18px;
+        width: 120px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+}
+
+.pages {
+    display: flex;
+    width: 355px;
+    justify-content: space-around;
+}
+.page {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #FFFFFF;
+    align-items: center;
+    margin-top: 22px;
+}
+.logo {
+    position: absolute;
+    left: 30px;
+    top: 35px;
+    img {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+.about {
+    padding: 80px 0 100px 0;
+    &__header {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+        color: #000000;
+    }
+    .divider {
+        div {
+            background-color: #000;
+        }
+    }
+    &__descr {
+        margin: 0 auto;
+        max-width: 590px;
+        margin-top: 40px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+    }
+}
+
+.best {
+    padding: 80px 0 110px 0;
+    background: url('../../img/coffe_house/our_best.png') center center/cover no-repeat;
+    &__header {
+        text-align: center;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 35px;
+        color: #000000;
+    }
+    &__items {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    &__item {
+        padding: 22px;
+        background: rgba(255, 255, 255, 0.65);
+        text-align: center;
+        border-radius: 2%;
+        &-img {
+            object-fit: cover;
+            max-width: 150px;
+            min-height: 130px;
+        }
+        &-name {
+            display: block;
+            text-decoration: none;
+            margin-top: 14px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #000000;
+        }
+        &-price {
+            margin-top: 10px;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 20px;
+            color: #000000;
+            text-align: end;
+        }
+    }
+}
+
+.footer {
+    position: relative;
+    padding: 30px 0 20px 0;
+    .pages {
+        margin: 0 auto;
+    }
+    .page {
+        color: #000;
+    }
+    .logo {
+        left: 570px;
+        top: auto;
+    }
+    .divider {
+        margin-top: 30px;
+        div {
+            background-color: #000;
+        }
+    }
+}
